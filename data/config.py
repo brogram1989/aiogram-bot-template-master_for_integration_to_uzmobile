@@ -21,7 +21,11 @@ for admin in ADMINS_FROM:
     except Exception as e:
         # Handle the case where conversion is not possible
         print(f"Cannot convert {admin} to integer.")
-USERS_FROM = env.list("USERS") #userlar ro'yxati
+
+#localhost uchun userlar ro'yxati
+#USERS_FROM = env.list("USERS") #userlar ro'yxati
+#railway app uchun qismi
+USERS_FROM = [7065729817,524229810,7148487281]
 USERS = []
 for user in USERS_FROM:
     try:
