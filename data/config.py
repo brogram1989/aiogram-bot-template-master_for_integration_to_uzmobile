@@ -5,8 +5,9 @@ env = Env()
 env.read_env()
 
 # .env fayl ichidan quyidagilarni o'qiymiz
-BOT_TOKEN = env.str("BOT_TOKEN")  # Bot toekn
-
+#BOT_TOKEN = env.str("BOT_TOKEN")  # Bot token
+#yuqoridagisi localhost uchun, quyidagisi railway uchun
+BOT_TOKEN = '6478730802:AAFQAqoHhinx4XLOMzcAXu82GhlibsrNMLA'  # Bot token
 ADMINS_FROM = env.list("ADMINS")  # adminlar ro'yxati
 ADMINS=[]
 for admin in ADMINS_FROM:
