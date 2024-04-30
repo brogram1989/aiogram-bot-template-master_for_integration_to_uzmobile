@@ -35,4 +35,4 @@ for user in USERS_FROM:
     except Exception as e:
         # Handle the case where conversion is not possible
         print(f"Cannot convert {user} to integer.")
-IP = env.str("ip")  # Xosting ip manzili
+#IP = env.str("ip")  # Xosting ip manzili
