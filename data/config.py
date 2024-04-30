@@ -8,7 +8,9 @@ env.read_env()
 #BOT_TOKEN = env.str("BOT_TOKEN")  # Bot token
 #yuqoridagisi localhost uchun, quyidagisi railway uchun
 BOT_TOKEN = '6478730802:AAFQAqoHhinx4XLOMzcAXu82GhlibsrNMLA'  # Bot token
-ADMINS_FROM = env.list("ADMINS")  # adminlar ro'yxati
+#ADMINS_FROM = env.list("ADMINS")  # adminlar ro'yxati
+#railway app uchun qismi
+ADMINS_FROM = [7065729817,524229810,7148487281]
 ADMINS=[]
 for admin in ADMINS_FROM:
     try:
